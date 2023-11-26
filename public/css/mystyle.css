@@ -1,0 +1,48 @@
+.abu {
+    background-color: #36474f;
+}
+
+.flex-column {
+    height: 250px;
+}
+
+.nav-item:hover {
+    background-color: rgba(172, 170, 170, 0.849);
+}
+
+.nav-item .active {
+    background-color: rgba(248, 248, 248, 0.795);
+}
+
+#content {
+    margin-left: 224px;
+}
+
+.sidebar {
+    margin-top: 57px;
+}
+
+.bar {
+    width: 200px;
+    height: 10px;
+}
+
+.login {
+    background-image: url("../images/4877010.jpg");
+    background-size: cover;
+}
+
+.example {
+    overflow-y: scroll; /* Tambahkan kemampuan untuk melakukan scrolling */
+}
+
+/* Sembunyikan scrollbar dari Chrome, Safari dan Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Sembunyikan scrollbar untuk IE, Edge dan Firefox */
+.example {
+    -ms-overflow-style: none; /* IE dan Edge */
+    scrollbar-width: none; /* Firefox */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .example {
+                background-color: #eee;
+                width: 200px;
+                height: 100px;
+
+                overflow-y: scroll; /* Tambahkan kemampuan untuk melakukan scrolling */
+            }
+
+            /* Sembunyikan scrollbar dari Chrome, Safari dan Opera */
+            .example::-webkit-scrollbar {
+                display: none;
+            }
+
+            /* Sembunyikan scrollbar untuk IE, Edge dan Firefox */
+            .example {
+                -ms-overflow-style: none; /* IE dan Edge */
+                scrollbar-width: none; /* Firefox */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="example">
+            =Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+            omnis autem voluptatibus, est inventore at ipsum commodi officiis
+            accusantium atque nemo dignissimos nihil quas fugiat impedit soluta
+            quod, possimus illo. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Neque aperiam rerum est ipsum. Nihil ullam quos
+            sequi doloremque consequatur voluptatibus. Recusandae a impedit
+            quaerat sunt dolores ratione omnis, commodi est. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Natus necessitatibus dolorem
+            id, aut perferendis placeat nisi quos nemo quibusdam veritatis fugit
+            provident voluptatem velit, quisquam minima dolore perspiciatis vero
+            ab?
+        </div>
+    </body>
+</html>
